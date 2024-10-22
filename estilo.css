@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', SansSerif ;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 900px;
+    padding: 10px;
+}
+
+.menus{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+.nome h1{
+    text-align: center;
+}
+
+
+.imagem{
+    display: flex;
+
+    width: 200px;
+    height: 250px;
+}
+
+.divisao{
+    background-color: #edc8a5;
+}
+
+.contatosInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.texto1{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.texto2{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.texto3{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.texto4{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.rodape{
+    background-color: #0c0c0c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    gap: 45px;
+
+}
+
+.card {
+    background-color: #cdb5ad;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 10px;
+}
+
+.card img {
+    height: 50px;
+    max-width: 50px;
+}
+
+
+.pai{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 45px;
+    text-align: center;
+    gap: 45px;
+}
+
+.pai2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 45px;
+    text-align: center;
+    gap: 45px;
+}
